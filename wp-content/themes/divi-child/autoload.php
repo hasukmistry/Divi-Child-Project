@@ -50,6 +50,7 @@ if ( ! class_exists('DCAutoload') ) {
                 'meta-boxes/dc-issue-publisher-info.php',
                 'meta-boxes/dc-ticket-publisher-info.php',
                 'meta-boxes/dc-ticket-notifications.php',
+                'meta-boxes/dc-ticket-listings.php',
                 'quick-edits/dc-issues.php',
                 'quick-edits/dc-advertisers.php',
                 'quick-edits/dc-tickets.php',
