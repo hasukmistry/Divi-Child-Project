@@ -1,0 +1,27 @@
+.ticket-console{
+    background-color: #23282d;
+    height: 200px;
+    width: 100%;
+    margin: 10px 0px;
+    overflow-y: scroll;
+    display: none;
+}
+.ticket-console{
+    color: #ffffff;
+    padding: 5px 0px 0px 5px;
+}
+.ticket-console div{
+    margin-bottom: 5px;
+}
+#assigned_to_email, #assigned_to_email:focus, #assigned_to_email:hover {
+    display: inline-block !important;
+    width: auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    position: relative;
+    bottom: 2px;
+    left: 4px;
+    box-shadow:none;
+    outline:none;
+}

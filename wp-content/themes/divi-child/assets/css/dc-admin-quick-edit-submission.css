@@ -1,0 +1,9 @@
+tr.quick-edit-row.quick-edit-row-page.inline-edit-submission label.inline-edit-status{
+    display: none!important;
+}
+tr.quick-edit-row.quick-edit-row-page.inline-edit-submission .dc-quick-edit-submission{
+    margin-top: 0px!important;
+}
+tr.quick-edit-row.quick-edit-row-page.inline-edit-submission.inline-edit-row fieldset.inline-edit-submission label span.title{
+    width: 8.5em;
+}

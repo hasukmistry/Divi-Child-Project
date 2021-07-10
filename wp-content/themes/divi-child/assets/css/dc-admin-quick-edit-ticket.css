@@ -1,0 +1,9 @@
+tr.quick-edit-row.quick-edit-row-page.inline-edit-ticket label.inline-edit-status{
+    display: none!important;
+}
+tr.quick-edit-row.quick-edit-row-page.inline-edit-ticket .dc-quick-edit-ticket{
+    margin-top: 0px!important;
+}
+tr.quick-edit-row.quick-edit-row-page.inline-edit-ticket.inline-edit-row fieldset.inline-edit-ticket label span.title{
+    width: 8em;
+}

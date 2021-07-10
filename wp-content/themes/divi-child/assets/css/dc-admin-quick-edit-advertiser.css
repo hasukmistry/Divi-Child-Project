@@ -1,0 +1,9 @@
+tr.quick-edit-row.quick-edit-row-page.inline-edit-advertiser label.inline-edit-status{
+    display: none!important;
+}
+tr.quick-edit-row.quick-edit-row-page.inline-edit-advertiser .dc-quick-edit-advertiser{
+    margin-top: 0px!important;
+}
+tr.quick-edit-row.quick-edit-row-page.inline-edit-advertiser.inline-edit-row fieldset.inline-edit-advertiser label span.title{
+    width: 8em;
+}

@@ -1,0 +1,6 @@
+table.dataTable tbody#post-submissions th, table.dataTable tbody#post-submissions td{
+    padding: 8px 5px;
+}
+.edit-submission-status{
+    display: none;
+}

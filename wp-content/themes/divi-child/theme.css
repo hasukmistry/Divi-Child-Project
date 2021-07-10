@@ -1,0 +1,12 @@
+#copy-slug-buttons > #copy_status{
+    display: none;
+    position: relative;
+    padding: .30rem 1.25rem;
+    top: 1px;
+    margin-left:0.5rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}

@@ -1,0 +1,6 @@
+tr.quick-edit-row.quick-edit-row-page.inline-edit-issue label.inline-edit-status{
+    display: none!important;
+}
+tr.quick-edit-row.quick-edit-row-page.inline-edit-issue .dc-quick-edit-issue{
+    margin-top: 0px!important;
+}

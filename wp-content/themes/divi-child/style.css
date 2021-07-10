@@ -1,0 +1,76 @@
+/*---------------------------------------------------------------------------------
+
+ Theme Name:   Divi Child
+ Theme URI:    https://www.provoweddings.com
+ Description:  
+ Author:       
+ Author URI:   
+ Template:     Divi
+ Version:      4.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+------------------------------ ADDITIONAL CSS HERE ------------------------------*/
+
+.issue_logo_container{
+    margin: 0 auto;
+    text-align: center;
+}
+.issue_logo_container #logo{
+    max-height: 100px;
+}
+.submission_req_form .acf-fields > .acf-field,.submission_req_form .acf-field[data-width]+.acf-field[data-width]{
+    border: none;
+}
+.submission_req_form{
+    margin-top: 20px;
+    text-align: center;
+}
+.submission_req_form form{
+    text-align: left;
+}
+.submission_req_form .acf-fields > .acf-checkbox-fields {
+    padding: 0px 12px;
+}
+.submission_req_form .acf-fields > .acf-checkbox-fields .acf-notice{
+    margin: 5px 0 0 5px;
+}
+div[data-name="submission_type"], div[data-name="gallery_link"]{
+    width: 50%;
+}
+div[data-name="copyright_holder"] .acf-label {
+    margin:0px!important;
+}
+div[data-name="copyright_holder"] .acf-label label{
+    display: none!important;
+}
+.submission_req_form .acf-form-submit{
+    margin: 10px auto;
+    text-align: center;
+}
+.submission_req_form .acf-form-submit .acf-button{
+    line-height: 16px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    border-radius: 4px;
+    background: rgb(26, 115, 232);
+    padding: 9px 16px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: initial !important;
+    cursor: pointer;
+}
+.submission_req_form .privacy_policy {
+    text-align: left;
+    padding: 10px 0px;
+}
+.navigator{
+    padding: 10px 0px;
+}
+.navigator:hover{
+    text-decoration: underline;
+}
+footer#main-footer {
+    margin-top: 50px;;
+}

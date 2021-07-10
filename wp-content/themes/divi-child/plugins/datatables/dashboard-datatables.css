@@ -1,0 +1,6 @@
+.dc-custom-dashboard-widget .dataTables_filter{
+    margin-bottom: 10px;
+}
+.dc-custom-dashboard-widget .dataTables_info, .dc-custom-dashboard-widget .dataTables_paginate{
+    margin-top:10px;
+}

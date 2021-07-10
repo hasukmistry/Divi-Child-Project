@@ -1,0 +1,12 @@
+#assigned_to_email_in_issue, #assigned_to_email_in_issue:focus, #assigned_to_email_in_issue:hover {
+    display: inline-block !important;
+    width: auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    position: relative;
+    bottom: 2px;
+    left: 4px;
+    box-shadow:none;
+    outline:none;
+}

@@ -1,0 +1,60 @@
+[
+    {
+        "key": "group_60857ddfa1f40",
+        "title": "Work Information",
+        "fields": [
+            {
+                "key": "field_60857ded05717",
+                "label": "Assigned to",
+                "name": "assigned_to",
+                "type": "user",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "role": "",
+                "allow_null": 0,
+                "multiple": 0,
+                "return_format": "object"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "issue"
+                },
+                {
+                    "param": "current_user_role",
+                    "operator": "==",
+                    "value": "administrator"
+                }
+            ],
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "issue"
+                },
+                {
+                    "param": "current_user_role",
+                    "operator": "==",
+                    "value": "sub_admin"
+                }
+            ]
+        ],
+        "menu_order": 2,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

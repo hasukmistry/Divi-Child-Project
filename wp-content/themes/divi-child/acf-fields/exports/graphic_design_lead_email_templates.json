@@ -1,0 +1,102 @@
+[
+    {
+        "key": "group_600c2d7e19582",
+        "title": "Email Templates >> Graphic Design: Lead",
+        "fields": [
+            {
+                "key": "field_600c2df8b06a5",
+                "label": "Ticket Assignment",
+                "name": "ticket_assignment_graphic_design_lead",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_600c2e30b06a6",
+                        "label": "Email Subject",
+                        "name": "email_subject_graphic_design_lead",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_600c2e62b06a7",
+                        "label": "Fields",
+                        "name": "",
+                        "type": "message",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "Available fields for template: <b>${ticket_title}, ${ticket_link}<\/b>",
+                        "new_lines": "",
+                        "esc_html": 0
+                    },
+                    {
+                        "key": "field_600c2ec3b06a8",
+                        "label": "Email Content",
+                        "name": "email_content_graphic_design_lead",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "text",
+                        "media_upload": 0,
+                        "toolbar": "full",
+                        "delay": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "dc-email-template-settings"
+                },
+                {
+                    "param": "current_user_role",
+                    "operator": "==",
+                    "value": "administrator"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

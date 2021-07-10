@@ -1,0 +1,21 @@
+#post-body #normal-sortables {
+    min-height: auto;
+}
+.dataTables_wrapper .dataTables_filter{
+    display: none!important;
+}
+.dc-custom-filters{
+    line-height: 30px;
+    display: inline-block;
+}
+.dc-custom-filters input[type="checkbox"]{
+    margin-left: 5px;
+}
+.dc-custom-filters label{
+    line-height: 30px;
+    display: inline-block;
+    bottom: 2px;
+    position: relative;
+    font-weight: bold;
+    margin-left: 15px;
+}

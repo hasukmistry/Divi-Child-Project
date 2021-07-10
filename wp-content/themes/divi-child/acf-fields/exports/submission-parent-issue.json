@@ -1,0 +1,76 @@
+[
+    {
+        "key": "group_608d68109839d",
+        "title": "Issue",
+        "fields": [
+            {
+                "key": "field_608d68486a991",
+                "label": "Original Issue",
+                "name": "original_issue",
+                "type": "post_object",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "issue"
+                ],
+                "taxonomy": "",
+                "allow_null": 0,
+                "multiple": 0,
+                "return_format": "id",
+                "ui": 1
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "submission"
+                },
+                {
+                    "param": "current_user_role",
+                    "operator": "==",
+                    "value": "administrator"
+                }
+            ],
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "submission"
+                },
+                {
+                    "param": "current_user_role",
+                    "operator": "==",
+                    "value": "sub_admin"
+                }
+            ],
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "submission"
+                },
+                {
+                    "param": "current_user_role",
+                    "operator": "==",
+                    "value": "publisher"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
